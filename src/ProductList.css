@@ -1,0 +1,85 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.btn-cadastrar {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn-cadastrar:hover {
+    background-color: #0056b3;
+  }
+
+.product {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+}
+
+.product:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.product h2 {
+    color: #333;
+    margin-bottom: 10px;
+    
+}
+
+.product p {
+    color: #666;
+    margin-bottom: 20px;
+    
+}
+
+button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
