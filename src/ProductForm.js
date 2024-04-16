@@ -23,7 +23,7 @@ const ProductForm = () => {
         try {
             await axios.post('http://localhost:8000/create/products', formData, {
                 headers: {
-                    'Content-Type': 'multipart/form-data'  // Necessário para enviar FormData com arquivos
+                    'Content-Type': 'multipart/form-data'
                 }
             });
             console.log("oi");
@@ -57,7 +57,7 @@ const ProductForm = () => {
                 </label>
                 <button type="submit">Cadastrar Produto</button>
             </form>
-            <Link className="btn-listar" to="/listar">Listar Produtos</Link> {/* Botão Listar que redireciona para /listar */}
+            <Link className="btn-listar" to="/listar">Listar Produtos</Link>
         </div>
     );
 };

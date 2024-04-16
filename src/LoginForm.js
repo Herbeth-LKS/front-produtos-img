@@ -32,7 +32,6 @@ const LoginForm = () => {
     }
   };
 
-  // Função para lidar com o clique no botão de registro
   const handleRegisterClick = () => {
     navigate('/registrar');
   };
@@ -65,7 +64,7 @@ const LoginForm = () => {
           />
         </div>
         <button type="submit">Login</button>
-        <button type="button" onClick={handleRegisterClick}>Registrar</button> {/* Adicione este botão */}
+        <button type="button" onClick={handleRegisterClick}>Registrar</button> 
       </form>
     </div>
   );

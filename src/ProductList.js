@@ -14,7 +14,7 @@ const ProductList = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
-  const itemsPerPage = 5; // Defina o número de itens por página
+  
 
   useEffect(() => {
     fetchProducts(currentPage);
